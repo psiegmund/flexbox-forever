@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+/* ====================
+        Assets
+======================= */
+/* font-family: 'Lato', sans-serif;
+
+#D9E8E5 Background
+
+rgba(0,0,0,.8) grauer Text
+*/
+
+
+/* ====================
+        General Styling
+======================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* ====================
+        Header Styling
+======================= */
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 5%;
+
+}
+
+header div {
+    display: flex;
+    align-items: baseline;
+
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    margin-left: 5%;
+    gap: 20px
+}
+
+header div img {
+    margin-right: 20px;
+}
+
+header ul:nth-of-type(2) {
+    margin: 0 0 0 auto;
+}
+
+/* ====================
+        Main Styling
+======================= */
+
+main {
+    background-color: #d9e8e5;
+    padding: 10vh;
+}
+
+main h2 {
+    margin-bottom: 20px;
+}
+
+main section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0 16%;
+    margin-bottom: 15px;
+}
+
+main section div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 10px;
+    width: max(30%, 340px);
+    height: 200px;
+}
+
+main section:first-of-type div:nth-last-of-type(1) {
+    background: url("../img/ring001.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main section:first-of-type div:nth-last-of-type(2) {
+    background: url("../img/ring002.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main section:first-of-type div:nth-last-of-type(3) {
+    background: url("../img/ring003.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main section:last-of-type div:nth-last-of-type(1) {
+    background: url("../img/ring004.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main section:last-of-type div:nth-last-of-type(2) {
+    background: url("../img/ring005.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main section:last-of-type div:nth-last-of-type(3) {
+    background: url("../img/ring006.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
